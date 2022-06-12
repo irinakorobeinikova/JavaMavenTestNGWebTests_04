@@ -7,6 +7,14 @@ import org.testng.annotations.Test;
 
 public class WebTest {
 
+    /** Test case
+     * Open the page http://www.99-bottles-of-beer.net/
+     * Push the item of menu Browse Languages
+     * Push the item of menu Start
+     * Confirm that user can see the tittle "Welcome to 99 Bottles of Beer"
+     * Close browser
+     */
+
     @Test
     public void testMenuStartTitle() throws InterruptedException {
 
